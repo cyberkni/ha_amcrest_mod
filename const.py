@@ -1,6 +1,6 @@
 """Constants for amcrest component."""
 
-DOMAIN = "amcrest"
+DOMAIN = "amcrest_mod"
 DATA_AMCREST = DOMAIN
 CAMERAS = "cameras"
 DEVICES = "devices"
