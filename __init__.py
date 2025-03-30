@@ -515,4 +515,4 @@ class AmcrestDevice:
     resolution: int
     control_light: bool
     channel: int = 0
-    disable_backchannel: bool
+    disable_backchannel: bool = False
