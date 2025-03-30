@@ -388,6 +388,7 @@ class AmcrestCam(Camera):
                     _LOGGER.debug("Assigned unique_id=%s", self._attr_unique_id)
             if self._rtsp_url is None:
                 self._rtsp_url = await self._maybe_disable_backchannel(self._api.async_rtsp_url(typeno=self._resolution))
+                _LOGGER.debug("RTSP URL is %s", self._rtsp_url)
 
             (
                 self._attr_is_streaming,
@@ -645,6 +646,7 @@ class AmcrestCam(Camera):
             )
 
     async def _maybe_disable_backchannel(self, rtsp_url: str) -> str:
+        _LOGGER.debug("Backchannel value: %s", self._disable_backchannel)
         if self._disable_backchannel:
             return rtsp_url + "#backchannel=0"
         return rtsp_url
