@@ -4,7 +4,7 @@ enable_recording:
       example: "camera.house_front"
       selector:
         entity:
-          integration: amcrest
+          integration: amcrest_mod
           domain: camera
 
 disable_recording:
@@ -13,7 +13,7 @@ disable_recording:
       example: "camera.house_front"
       selector:
         entity:
-          integration: amcrest
+          integration: amcrest_mod
           domain: camera
 
 enable_audio:
@@ -22,7 +22,7 @@ enable_audio:
       example: "camera.house_front"
       selector:
         entity:
-          integration: amcrest
+          integration: amcrest_mod
           domain: camera
 
 disable_audio:
@@ -31,7 +31,7 @@ disable_audio:
       example: "camera.house_front"
       selector:
         entity:
-          integration: amcrest
+          integration: amcrest_mod
           domain: camera
 
 enable_motion_recording:
@@ -40,7 +40,7 @@ enable_motion_recording:
       example: "camera.house_front"
       selector:
         entity:
-          integration: amcrest
+          integration: amcrest_mod
           domain: camera
 
 disable_motion_recording:
@@ -49,7 +49,7 @@ disable_motion_recording:
       example: "camera.house_front"
       selector:
         entity:
-          integration: amcrest
+          integration: amcrest_mod
           domain: camera
 
 goto_preset:
@@ -58,7 +58,7 @@ goto_preset:
       example: "camera.house_front"
       selector:
         entity:
-          integration: amcrest
+          integration: amcrest_mod
           domain: camera
     preset:
       required: true
@@ -73,7 +73,7 @@ set_color_bw:
       example: "camera.house_front"
       selector:
         entity:
-          integration: amcrest
+          integration: amcrest_mod
           domain: camera
     color_bw:
       selector:
@@ -89,7 +89,7 @@ start_tour:
       example: "camera.house_front"
       selector:
         entity:
-          integration: amcrest
+          integration: amcrest_mod
           domain: camera
 
 stop_tour:
@@ -98,7 +98,7 @@ stop_tour:
       example: "camera.house_front"
       selector:
         entity:
-          integration: amcrest
+          integration: amcrest_mod
           domain: camera
 
 ptz_control:
@@ -107,7 +107,7 @@ ptz_control:
       example: "camera.house_front"
       selector:
         entity:
-          integration: amcrest
+          integration: amcrest_mod
           domain: camera
     movement:
       required: true
